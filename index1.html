@@ -10,47 +10,49 @@
     <script src="https://kit.fontawesome.com/d0bf37f95f.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
 
-        <div class="container rounded-3" style="background-color: rgba(215, 211, 241, 0.74);">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand d-flex align-itens-center" href="#">
-                    <img src="images/logo.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-lg-0">
+        <nav class="container rounded-3 mb-5 navbar navbar-expand-lg mb-5 fixed-top"
+            style=" background-color: rgb(215, 211, 241);">
+            <a class="navbar-brand ps-2 d-flex align-itens-center" href="#">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0">
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Bagpack</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Shoes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex form" role="search">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bagpack">Bagpack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#shoes">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                    </li>
+                </ul>
+                <div class="d-flex form" role="search">
 
-                        <input type="text" class="form-control rounded-pill form-input" placeholder="Search">
-                        <button class="btn" type="submit"><i class="fa fa-search"></i></button>
-                    </div>
+                    <input type="text" class="form-control rounded-pill form-input" placeholder="Search">
+                    <button class="btn" type="submit"><i class="fa fa-search"></i></button>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
 
-        <div class="container rounded-3 mt-4 mb-4 p-0 shadow" style="background-color: rgba(215, 211, 241, 0.74);">
+
+        <div class="container rounded-3 mt-5 mb-4 p-0 shadow" style="background-color: rgba(215, 211, 241, 0.74);">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -66,7 +68,7 @@
 
                                 <h2>$600</h2>
 
-                                <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                                <button class="btn sheefa-pv">Buy
                                     Now</button>
 
                             </div>
@@ -113,7 +115,7 @@
 
                                 <h2>$600</h2>
 
-                                <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                                <button class="btn sheefa-pv">Buy
                                     Now</button>
                             </div>
 
@@ -173,7 +175,7 @@
             </div>
         </section>
 
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-5">
                 <div class="col">
@@ -190,7 +192,7 @@
                         </div>
                         <div class="card-footer border-0 p-3 d-flex justify-content-center rounded-4"
                             style="background-color: white;">
-                            <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                            <button class="btn sheefa-pv">Buy
                                 Now</button>
                         </div>
                     </div>
@@ -205,7 +207,7 @@
                         </div>
                         <div class="card-footer border-0 p-3 d-flex justify-content-center rounded-4"
                             style="background-color: white;">
-                            <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                            <button class="btn sheefa-pv">Buy
                                 Now</button>
                         </div>
                     </div>
@@ -221,7 +223,7 @@
                         </div>
                         <div class="card-footer border-0 p-3 d-flex justify-content-center rounded-4"
                             style="background-color: white;">
-                            <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                            <button class="btn sheefa-pv">Buy
                                 Now</button>
                         </div>
                     </div>
@@ -230,7 +232,7 @@
 
 
         </section>
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="bagpack">
             <h2>Bags</h2>
             <div class="row row-cols-1 row-cols-md-3 g-5">
                 <div class="col">
@@ -243,7 +245,7 @@
                         </div>
                         <div class="card-footer border-0 p-3 d-flex justify-content-center rounded-4"
                             style="background-color: white;">
-                            <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                            <button class="btn sheefa-pv">Buy
                                 Now</button>
                         </div>
                     </div>
@@ -259,7 +261,7 @@
                         </div>
                         <div class="card-footer border-0 p-3 d-flex justify-content-center rounded-4"
                             style="background-color: white;">
-                            <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                            <button class="btn sheefa-pv">Buy
                                 Now</button>
                         </div>
                     </div>
@@ -275,7 +277,7 @@
                         </div>
                         <div class="card-footer border-0 p-3 d-flex justify-content-center rounded-4"
                             style="background-color: white;">
-                            <button class="btn" style="background-color: rgb(238, 137, 252);">Buy
+                            <button class="btn sheefa-pv">Buy
                                 Now</button>
                         </div>
                     </div>
@@ -285,7 +287,7 @@
 
         </section>
         <section style="height: 400px; background-color: rgb(248, 190, 184);"
-            class="container mb-5 d-flex justify-content-center align-items-center shadow-lg rounded-4">
+            class="container mb-5 d-flex justify-content-center align-items-center shadow-lg rounded-4" id="subscribe">
             <div>
                 <h1>LET'S STAY IN TOUCH
                 </h1>
